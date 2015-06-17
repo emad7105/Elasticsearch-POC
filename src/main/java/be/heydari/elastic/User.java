@@ -1,3 +1,5 @@
+package be.heydari.elastic;
+
 
 public class User {
 	public String id;
