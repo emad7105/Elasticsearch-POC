@@ -38,11 +38,11 @@ public class EmbeddedElasticServer {
 		return embeddedESServer;
 	}
 
-	public EmbeddedElasticServer() {
+	private EmbeddedElasticServer() {
 		this(DEFAULT_DATA_DIRECTORY);
 	}
 
-	public EmbeddedElasticServer(String dataDirectory) {
+	private EmbeddedElasticServer(String dataDirectory) {
 		this.dataDirectory = dataDirectory;
 
 		ImmutableSettings.Builder elasticSettings = ImmutableSettings.settingsBuilder()
