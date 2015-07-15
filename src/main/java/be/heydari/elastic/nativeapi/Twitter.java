@@ -1,14 +1,11 @@
 package be.heydari.elastic.nativeapi;
 
 
-import be.heydari.elastic.Tweet;
-import be.heydari.elastic.User;
 import com.google.gson.Gson;
 import org.elasticsearch.action.get.GetRequest;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.index.IndexRequestBuilder;
 import org.elasticsearch.action.index.IndexResponse;
-import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.client.Client;
@@ -18,7 +15,6 @@ import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
 
 
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 

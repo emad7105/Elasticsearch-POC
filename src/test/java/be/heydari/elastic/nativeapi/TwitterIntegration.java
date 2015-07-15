@@ -1,7 +1,7 @@
 package be.heydari.elastic.nativeapi;
 
 
-import be.heydari.elastic.server.EmbeddedElasticServer;
+import be.heydari.elastic.nativeapi.server.EmbeddedElasticServer;
 import org.elasticsearch.client.Client;
 
 import java.util.Arrays;

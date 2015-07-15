@@ -1,7 +1,6 @@
 package be.heydari.elastic.nativeapi;
 
 
-import be.heydari.elastic.Tweet;
 import com.google.gson.Gson;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;

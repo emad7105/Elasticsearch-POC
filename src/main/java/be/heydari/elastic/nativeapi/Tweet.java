@@ -1,4 +1,4 @@
-package be.heydari.elastic;
+package be.heydari.elastic.nativeapi;
 
 import java.time.Instant;
 

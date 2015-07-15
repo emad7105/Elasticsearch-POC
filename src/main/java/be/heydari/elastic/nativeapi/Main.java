@@ -1,4 +1,4 @@
-package be.heydari.elastic;
+package be.heydari.elastic.nativeapi;
 
 import be.heydari.elastic.nativeapi.Twitter;
 import org.elasticsearch.action.index.IndexResponse;
