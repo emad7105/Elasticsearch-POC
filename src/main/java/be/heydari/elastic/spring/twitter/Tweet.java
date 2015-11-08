@@ -1,10 +1,8 @@
-package be.heydari.elastic.spring;
+package be.heydari.elastic.spring.twitter;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.Version;
 import org.springframework.data.elasticsearch.annotations.Document;
-
-import java.time.Instant;
 
 
 @Document(indexName = "tweets", type = "tweet", shards = 1, replicas = 0, indexStoreType = "memory")

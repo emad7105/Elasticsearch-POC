@@ -1,4 +1,4 @@
-package be.heydari.elastic.spring;
+package be.heydari.elastic.spring.twitter;
 
 import org.junit.Before;
 import static org.junit.Assert.*;

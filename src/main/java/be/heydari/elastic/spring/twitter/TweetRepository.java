@@ -1,4 +1,4 @@
-package be.heydari.elastic.spring;
+package be.heydari.elastic.spring.twitter;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
