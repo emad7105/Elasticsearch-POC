@@ -49,16 +49,16 @@ public class User {
 
 		User user = (User) o;
 
-		if (username != null ? !username.equals(user.username) : user.username != null) return false;
-		if (version != null ? !version.equals(user.version) : user.version != null) return false;
+		if (!username.equals(user.username)) return false;
+		if (!version.equals(user.version)) return false;
 
 		return true;
 	}
 
 	@Override
 	public int hashCode() {
-		int result = username != null ? username.hashCode() : 0;
-		result = 31 * result + (version != null ? version.hashCode() : 0);
+		int result = username.hashCode();
+		result = 31 * result + version.hashCode();
 		return result;
 	}
 }

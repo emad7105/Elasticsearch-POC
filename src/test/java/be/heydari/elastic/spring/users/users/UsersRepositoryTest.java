@@ -28,6 +28,18 @@ public class UsersRepositoryTest extends UserIntegrationTest {
 		User indexedUser = elasticsearchTemplate.queryForObject(getQuery, User.class);
 	}
 
+	@Test
+	public void findByUsernameShiva() throws InterruptedException {
+		User u1 = Users.build("Kasia");
+
+		Thread.sleep(3000l);
+
+		Page<User> users = repository.findByUsername(u1.getUsername(), new PageRequest(0, 10));
+
+		assertNotNull(users);
+		assertEquals(1, users.getContent().size());
+	}
+
 
 	@Test
 	public void findByUsername() throws InterruptedException {
